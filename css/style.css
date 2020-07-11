@@ -552,7 +552,7 @@ form#logon, form#joinus, form#register{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	background-image: linear-gradient(45deg,#ffcaac 0%,#ffe5e5 100%);
+	background-image: linear-gradient(45deg,#ffd2b8 0%,#ffe5e5 100%);
 	padding: 20px;	
 	text-align: center;	
 	border-radius: 5px;
@@ -587,6 +587,10 @@ form.logon input{
 }
 form.logon input,button,h3{
 	margin: 30px 15px;
+}
+form.logon h3{
+	font-weight: bold;
+	color:  #ff975e;
 }
 form.logon button{
 	cursor: pointer;
