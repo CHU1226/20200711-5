@@ -59,5 +59,9 @@ $(document).ready(function() {
 	$('.register').click(function(){
 		$('#register').fadeIn();
 		$('.dark-bg').fadeIn();
-	});
+		 $('form#logon').fadeOut();
+    });
+    $('form.logon img').click(function(){
+        alert('目前沒有網路請稍後再試')
+    })
 });
